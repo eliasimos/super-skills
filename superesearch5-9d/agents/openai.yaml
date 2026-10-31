@@ -1,0 +1,6 @@
+interface:
+  display_name: "superesearch5-9d"
+  short_description: "Solo research with one substantive body and a short abstract"
+  default_prompt: "Use $superesearch5-9d to refine my question, agree the objective, then research and deliver a complete sourced answer in one substantive body, using my selected model and effort."
+policy:
+  allow_implicit_invocation: true

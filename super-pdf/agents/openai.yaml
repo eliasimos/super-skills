@@ -1,0 +1,4 @@
+interface:
+  display_name: "Super PDF"
+  short_description: "Wrap reports in the approved Brayl PDF skin"
+  default_prompt: "Use $super-pdf to wrap this report in the Brayl skin, preserving content and adding full sourcing."

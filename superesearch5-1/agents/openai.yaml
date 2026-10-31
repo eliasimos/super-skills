@@ -1,0 +1,4 @@
+interface:
+  display_name: "superesearch5-1"
+  short_description: "Autonomous research after objective approval"
+  default_prompt: "Use $superesearch5-1 to agree the objective, then source, plan, research and deliver a reviewed answer autonomously within the approved brief."

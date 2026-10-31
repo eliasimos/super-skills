@@ -1,0 +1,142 @@
+{
+  "snapshot_date": "2026-10-31",
+  "source": "supersearch working copy",
+  "skills": {
+    "superesearch5-1": {
+      "source_hashes": {
+        "SKILL.md": "57c91aa92fd527f81b662a73ce402206ba8006444319c9bb456f2ed9bf34ced9",
+        "references/roles.md": "00b4796a97c2902cc3f740b0ea43849912410e49c37edccfcd3878f8a9e3aeef",
+        "references/state-cli.md": "c77d3e5497c32ecdcd23a34c3abb2b2ba4512a802354a97cebb1a4af10231e20",
+        "references/review.md": "8f3602621404c93e739cfae697a67b54dc881b43a3178b6da08093d442bcee0b",
+        "tests/test_research_state.py": "5211c12d613641599ad0bc60d987bc85ad0513fbddb16fc91da50195ee414324",
+        "agents/openai.yaml": "7af685cd88779405e1807bca8d41fc5d67a538fcdc6aff29bb4494ab8cfa5a68",
+        "scripts/research_state.py": "cf8c15fd69e432e685892ef0ace113e6d8152ff6606b853131a712f95f4b91fb"
+      }
+    },
+    "superesearch5-9d": {
+      "source_hashes": {
+        "SKILL.md": "c9cd1ffef424d4fbc4bbf1a097b3cef4a2a681f4aa444f9e71f26e68115afe9c",
+        "references/workspace-integration.md": "386edd3725deea2eb06e5e5adf3c7a153c8316bf4e601248dd322d5bb79fb366",
+        "references/research-method.md": "01ad07539028f9d2d94eeabbc377ee156e22c9719e45efe63d53b504beb401c9",
+        "references/design-basis.md": "b2a17a9e5c48d73134e0edcff622e547a9023ee001643429f985ed198f4de3b6",
+        "agents/openai.yaml": "ee0e720bfe86a4fbbd1dc06bc446d47b6c0d366a7183309bc549e5bd98bb1ab9",
+        "agents/packaging.json": "ab5eee50f33acdba1c39eee02092efb1b6ff8a497e4ae5588b8d1626ed6aac91"
+      }
+    },
+    "super-pdf": {
+      "source_hashes": {
+        "SKILL.md": "4cf966b1adf27d5620e5beb3bea366a0b145a5575ac23a38f30cee52db923b2d",
+        "references/rendering.md": "2599e4a9b98ac949ac20fefa8b699d2fab79a20e4eca2581708fa2ec5aa0967e",
+        "agents/openai.yaml": "9d3fdadb2806dd2e5ea3899fc80944ee80ded72cf06750ffbb167365b0f8c169",
+        "scripts/render_report.py": "18483aabaec45bf2a063245ef193218b0bbc503e70ec64799d767a66806a5bae",
+        "assets/brayl-logo.png": "6e39979f8ea49d8a0297fb483b8fad7a9e665fb12dc8defea72a69e6acb3825c",
+        "assets/fonts/Inter-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "assets/fonts/InstrumentSerif-OFL.txt": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+        "assets/fonts/Inter-SemiboldItalic.ttf": "1882b69367ab4f1f5b47cea043a76eb550da22a86a6f9de1709f274d8896f9d1",
+        "assets/fonts/SplineSansMono-Regular.ttf": "79db97b426ceb8cdc3e4dc31986ee5b1156c63dc745a40a615b2c5a9728da64a",
+        "assets/fonts/InstrumentSerif-Regular.ttf": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+        "assets/fonts/Inter-Regular.ttf": "a28ce4956028f4d51ec55dda01eec8d8b9072752e6f31a377f0a714f235a97e6",
+        "assets/fonts/SplineSansMono-OFL.txt": "4abb88162e4c0c5f9fc6c2f15d7085f7b7e27fd89f541a13488e1bcb829bde3f",
+        "assets/fonts/Inter-Italic.ttf": "26e539eb22d84e6bce6550c16812d509e47d9856a4f5038d1cbda407d48c8d9c",
+        "assets/fonts/Inter-Semibold.ttf": "085685cbeed5f6165cf8ebac0e57a5237fe70fc76767e921f0b1d7b48ec4bce7"
+      }
+    },
+    "super-deck": {
+      "source_hashes": {
+        "SKILL.md": "e615ab8090dd926cf29118e0ec54b362feb33c32e53b0eded1a14c0563329731",
+        "references/design.md": "afdc6efb6b55eeecd1a86f52bace6bb5015e884b034cd0395952fe5f5a783712",
+        "references/legibility.md": "56efe6b90c3c42670a43821db33d664d821bff726981e8e83fa0bc1707194e30",
+        "agents/openai.yaml": "6e5c04d025e4b7fd427fa81f51e2303a0c833f22da9feb99ce547416f861692a",
+        "agents/packaging.json": "ab5eee50f33acdba1c39eee02092efb1b6ff8a497e4ae5588b8d1626ed6aac91",
+        "assets/brayl-mark.png": "d15770351b613f257116ddc3f78218e9e38b420ad82f2ac5f88b38f324ac5e34",
+        "assets/composition-reference.pdf": "47ad915fac9043a82d757d0bbb51a1c68c965cb601beb72f05a9ce8f5f0b0d63",
+        "assets/deck-modes.css": "93c6c03cccfe4402b4402dab033cbf303463cd9c4aabb4bcc64a353ec364843f",
+        "assets/deck-base.css": "345ef8d91924d1160ed7a24480b4bd1b2ed098dddde8303ff097688847d05ef7",
+        "assets/deck-report.css": "a4b26c82620873bd2f00ec1409bec0ca97b4f4d7090f568105597135e95f4956",
+        "assets/reference-preview.pdf": "a428b52031fecc976f4693b8094f1aa2b634cf8badb84645724c41cb6016decd",
+        "assets/deck-layout.css": "854e175f0889e7006bfcf974f99f7ffd164c64792f6d14b6580afa55634501cf",
+        "assets/legibility-reference.pdf": "3ffe91dbd7b216111b44959c474497364e639ddf447a82da57dc35fd77661e59",
+        "assets/fonts/Inter-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "assets/fonts/InstrumentSerif-OFL.txt": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+        "assets/fonts/Inter-SemiboldItalic.ttf": "1882b69367ab4f1f5b47cea043a76eb550da22a86a6f9de1709f274d8896f9d1",
+        "assets/fonts/SplineSansMono-Regular.ttf": "79db97b426ceb8cdc3e4dc31986ee5b1156c63dc745a40a615b2c5a9728da64a",
+        "assets/fonts/InstrumentSerif-Regular.ttf": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+        "assets/fonts/Inter-Regular.ttf": "a28ce4956028f4d51ec55dda01eec8d8b9072752e6f31a377f0a714f235a97e6",
+        "assets/fonts/SplineSansMono-OFL.txt": "4abb88162e4c0c5f9fc6c2f15d7085f7b7e27fd89f541a13488e1bcb829bde3f",
+        "assets/fonts/Inter-Italic.ttf": "26e539eb22d84e6bce6550c16812d509e47d9856a4f5038d1cbda407d48c8d9c",
+        "assets/fonts/Inter-Semibold.ttf": "085685cbeed5f6165cf8ebac0e57a5237fe70fc76767e921f0b1d7b48ec4bce7"
+      }
+    }
+  },
+  "portability_changes": {
+    "superesearch5-1": [
+      "Bundled research method, method capture, source triage and temporal guidance",
+      "Replaced machine-specific command prefix with SKILL_DIR",
+      "Declared self-contained packaging"
+    ],
+    "super-pdf": [
+      "Bundled PDF validation guidance and host-neutral delivery hooks",
+      "Declared self-contained packaging"
+    ]
+  },
+  "packaged_hashes": {
+    "README.md": "ebf9f5666eec8b8d8ba46c1761dc8a5c541c547763af4e1464d1ce8bbb213432",
+    ".gitignore": "6f1fe172df6d8a75c57a95e7b1afdfb48a1a0bb52181887ac337b628e74527ba",
+    "superesearch5-9d/SKILL.md": "c9cd1ffef424d4fbc4bbf1a097b3cef4a2a681f4aa444f9e71f26e68115afe9c",
+    "super-deck/SKILL.md": "e615ab8090dd926cf29118e0ec54b362feb33c32e53b0eded1a14c0563329731",
+    "super-pdf/SKILL.md": "6a0ab981ca6496d5608695e6da9ca47bdab715dc9b23aff72830a22d560c2aaa",
+    "superesearch5-1/SKILL.md": "6273836be85f7ec1d0a0fce5875bf8afed7c1e406dc02131f801fb7e11019338",
+    "superesearch5-1/references/research-method.md": "e65b87ded81702329ce7349acc6e321064fdf2b44f27174c490e2a6963250788",
+    "superesearch5-1/references/local-method-capture.md": "30d9a8b64c15b787e1c620977fe66514633e474d268a508d967d50cc0ea3758f",
+    "superesearch5-1/references/roles.md": "00b4796a97c2902cc3f740b0ea43849912410e49c37edccfcd3878f8a9e3aeef",
+    "superesearch5-1/references/state-cli.md": "e392293b9b4897f8c7b8f33d45862e705de70adabe7a56e5fd2e4b23d4c0126e",
+    "superesearch5-1/references/review.md": "8f3602621404c93e739cfae697a67b54dc881b43a3178b6da08093d442bcee0b",
+    "superesearch5-1/references/source-triage.md": "2d0b233b82d50d74beb462d0ac76269a73898f2e3718e84229e3745ac565f5e1",
+    "superesearch5-1/references/source-temporality.md": "77145ff43adb0395f8a120050ee7c6f389a65ac53188568d0c5a22ef5a111877",
+    "superesearch5-1/tests/test_research_state.py": "5211c12d613641599ad0bc60d987bc85ad0513fbddb16fc91da50195ee414324",
+    "superesearch5-1/agents/openai.yaml": "7af685cd88779405e1807bca8d41fc5d67a538fcdc6aff29bb4494ab8cfa5a68",
+    "superesearch5-1/agents/packaging.json": "ab5eee50f33acdba1c39eee02092efb1b6ff8a497e4ae5588b8d1626ed6aac91",
+    "superesearch5-1/scripts/research_state.py": "cf8c15fd69e432e685892ef0ace113e6d8152ff6606b853131a712f95f4b91fb",
+    "super-pdf/references/rendering.md": "2599e4a9b98ac949ac20fefa8b699d2fab79a20e4eca2581708fa2ec5aa0967e",
+    "super-pdf/references/pdf-validation.md": "75a890e0f474ab700f568db4075c7a919b8b102683c4f1e0057e45558ebc2fd4",
+    "super-pdf/agents/openai.yaml": "9d3fdadb2806dd2e5ea3899fc80944ee80ded72cf06750ffbb167365b0f8c169",
+    "super-pdf/agents/packaging.json": "ab5eee50f33acdba1c39eee02092efb1b6ff8a497e4ae5588b8d1626ed6aac91",
+    "super-pdf/scripts/render_report.py": "18483aabaec45bf2a063245ef193218b0bbc503e70ec64799d767a66806a5bae",
+    "super-pdf/assets/brayl-logo.png": "6e39979f8ea49d8a0297fb483b8fad7a9e665fb12dc8defea72a69e6acb3825c",
+    "super-pdf/assets/fonts/Inter-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "super-pdf/assets/fonts/InstrumentSerif-OFL.txt": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+    "super-pdf/assets/fonts/Inter-SemiboldItalic.ttf": "1882b69367ab4f1f5b47cea043a76eb550da22a86a6f9de1709f274d8896f9d1",
+    "super-pdf/assets/fonts/SplineSansMono-Regular.ttf": "79db97b426ceb8cdc3e4dc31986ee5b1156c63dc745a40a615b2c5a9728da64a",
+    "super-pdf/assets/fonts/InstrumentSerif-Regular.ttf": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+    "super-pdf/assets/fonts/Inter-Regular.ttf": "a28ce4956028f4d51ec55dda01eec8d8b9072752e6f31a377f0a714f235a97e6",
+    "super-pdf/assets/fonts/SplineSansMono-OFL.txt": "4abb88162e4c0c5f9fc6c2f15d7085f7b7e27fd89f541a13488e1bcb829bde3f",
+    "super-pdf/assets/fonts/Inter-Italic.ttf": "26e539eb22d84e6bce6550c16812d509e47d9856a4f5038d1cbda407d48c8d9c",
+    "super-pdf/assets/fonts/Inter-Semibold.ttf": "085685cbeed5f6165cf8ebac0e57a5237fe70fc76767e921f0b1d7b48ec4bce7",
+    "super-deck/references/design.md": "afdc6efb6b55eeecd1a86f52bace6bb5015e884b034cd0395952fe5f5a783712",
+    "super-deck/references/legibility.md": "56efe6b90c3c42670a43821db33d664d821bff726981e8e83fa0bc1707194e30",
+    "super-deck/agents/openai.yaml": "6e5c04d025e4b7fd427fa81f51e2303a0c833f22da9feb99ce547416f861692a",
+    "super-deck/agents/packaging.json": "ab5eee50f33acdba1c39eee02092efb1b6ff8a497e4ae5588b8d1626ed6aac91",
+    "super-deck/assets/brayl-mark.png": "d15770351b613f257116ddc3f78218e9e38b420ad82f2ac5f88b38f324ac5e34",
+    "super-deck/assets/composition-reference.pdf": "47ad915fac9043a82d757d0bbb51a1c68c965cb601beb72f05a9ce8f5f0b0d63",
+    "super-deck/assets/deck-modes.css": "93c6c03cccfe4402b4402dab033cbf303463cd9c4aabb4bcc64a353ec364843f",
+    "super-deck/assets/deck-base.css": "345ef8d91924d1160ed7a24480b4bd1b2ed098dddde8303ff097688847d05ef7",
+    "super-deck/assets/deck-report.css": "a4b26c82620873bd2f00ec1409bec0ca97b4f4d7090f568105597135e95f4956",
+    "super-deck/assets/reference-preview.pdf": "a428b52031fecc976f4693b8094f1aa2b634cf8badb84645724c41cb6016decd",
+    "super-deck/assets/deck-layout.css": "854e175f0889e7006bfcf974f99f7ffd164c64792f6d14b6580afa55634501cf",
+    "super-deck/assets/legibility-reference.pdf": "3ffe91dbd7b216111b44959c474497364e639ddf447a82da57dc35fd77661e59",
+    "super-deck/assets/fonts/Inter-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "super-deck/assets/fonts/InstrumentSerif-OFL.txt": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+    "super-deck/assets/fonts/Inter-SemiboldItalic.ttf": "1882b69367ab4f1f5b47cea043a76eb550da22a86a6f9de1709f274d8896f9d1",
+    "super-deck/assets/fonts/SplineSansMono-Regular.ttf": "79db97b426ceb8cdc3e4dc31986ee5b1156c63dc745a40a615b2c5a9728da64a",
+    "super-deck/assets/fonts/InstrumentSerif-Regular.ttf": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+    "super-deck/assets/fonts/Inter-Regular.ttf": "a28ce4956028f4d51ec55dda01eec8d8b9072752e6f31a377f0a714f235a97e6",
+    "super-deck/assets/fonts/SplineSansMono-OFL.txt": "4abb88162e4c0c5f9fc6c2f15d7085f7b7e27fd89f541a13488e1bcb829bde3f",
+    "super-deck/assets/fonts/Inter-Italic.ttf": "26e539eb22d84e6bce6550c16812d509e47d9856a4f5038d1cbda407d48c8d9c",
+    "super-deck/assets/fonts/Inter-Semibold.ttf": "085685cbeed5f6165cf8ebac0e57a5237fe70fc76767e921f0b1d7b48ec4bce7",
+    "superesearch5-9d/references/workspace-integration.md": "386edd3725deea2eb06e5e5adf3c7a153c8316bf4e601248dd322d5bb79fb366",
+    "superesearch5-9d/references/research-method.md": "01ad07539028f9d2d94eeabbc377ee156e22c9719e45efe63d53b504beb401c9",
+    "superesearch5-9d/references/design-basis.md": "b2a17a9e5c48d73134e0edcff622e547a9023ee001643429f985ed198f4de3b6",
+    "superesearch5-9d/agents/openai.yaml": "ee0e720bfe86a4fbbd1dc06bc446d47b6c0d366a7183309bc549e5bd98bb1ab9",
+    "superesearch5-9d/agents/packaging.json": "ab5eee50f33acdba1c39eee02092efb1b6ff8a497e4ae5588b8d1626ed6aac91"
+  }
+}

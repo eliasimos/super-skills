@@ -1,0 +1,107 @@
+/* Load after deck-base.css, deck-layout.css and deck-report.css.
+ * Modes apply to the whole slide. Keep title emphasis inline and the mark intact.
+ */
+.slide-content {
+  --slide-side: 153.6px; /* 8% of the fixed 1920px canvas; scale with the canvas. */
+  --slide-paper: #fff;
+  --slide-ink: #1a1a2e;
+  --slide-muted: #555568;
+  --slide-line: #e1e1e8;
+  --slide-primary: #7c7cff;
+  --slide-accent: #151824;
+  --slide-link: #6868d8;
+  --slide-panel: #f7f7ff;
+  --slide-tint: rgba(124,124,255,.07);
+  --panel: var(--slide-panel);
+  --panel2: var(--slide-panel);
+  padding-left: var(--slide-side);
+  padding-right: var(--slide-side);
+  background: var(--slide-paper);
+  color: var(--slide-ink);
+  color-scheme: light;
+}
+.slide-content.slide--dark {
+  --slide-paper: #050913;
+  --slide-ink: #e8e8f0;
+  --slide-muted: rgba(226,226,242,.88);
+  --slide-line: rgba(200,200,230,.15);
+  --slide-accent: #e8e8f0;
+  --slide-link: #ababff;
+  --slide-panel: rgba(255,255,255,.04);
+  --slide-tint: rgba(124,124,255,.10);
+  color-scheme: dark;
+}
+@supports (color: oklch(0.14 0.025 265)) {
+  .slide-content.slide--dark { --slide-paper: oklch(0.14 0.025 265); }
+}
+.slide-content.slide--violet {
+  --slide-paper: #e4e4ff;
+  --slide-line: rgba(26,26,46,.15);
+}
+.slide-content .deck-slide-header,
+.slide-content .deck-slide-footer,
+.slide-content .content-zone,
+.slide-content .evidence {
+  left: var(--slide-side);
+  right: var(--slide-side);
+}
+.slide-content .deck-slide-header,
+.slide-content .deck-slide-footer {
+  background: transparent;
+  color: var(--slide-muted);
+  border-color: var(--slide-line);
+}
+.slide-content .deck-brand-mark,
+.slide-content .deck-slide-header img {
+  filter: none;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+.slide-content .slide-title,
+.slide-content .slide-title-lg {
+  max-width: 100%;
+  color: var(--slide-ink);
+  text-wrap: balance;
+}
+.slide-content .title-accent {
+  display: inline;
+  color: var(--slide-primary);
+  white-space: normal;
+}
+.slide-content .deck-subhead { max-width: 100%; }
+.slide-content .slide-body,
+.slide-content .slide-body-lg,
+.slide-content .deck-subhead,
+.slide-content .deck-note,
+.slide-content .deck-source-entry .source-note,
+.slide-content .chart-unit,
+.slide-content .ticks,
+.slide-content .evidence {
+  color: var(--slide-muted);
+}
+.slide-content .slide-subtitle,
+.slide-content .chart-title,
+.slide-content strong,
+.slide-content .bar span {
+  color: var(--slide-ink);
+}
+.slide-content strong { font-weight: 600; }
+.slide-content a { color: var(--slide-link); }
+.slide-content .editorial-columns section,
+.slide-content .deck-source-entry,
+.slide-content .roadmap-four section,
+.slide-content .bar-track,
+.slide-content .evidence {
+  border-color: var(--slide-line);
+}
+.slide-content .deck-data-table thead th {
+  color: var(--slide-muted);
+  border-color: var(--slide-ink);
+}
+.slide-content .deck-data-table td,
+.slide-content .deck-data-table tbody th {
+  color: var(--slide-ink);
+  border-color: var(--slide-line);
+}
+.slide-content svg .value { fill: var(--slide-ink); }
+.slide-content svg .tick { fill: var(--slide-muted); }

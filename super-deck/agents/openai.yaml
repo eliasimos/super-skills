@@ -1,0 +1,4 @@
+interface:
+  display_name: "Super Deck"
+  short_description: "Complete Brayl research decks sized to the content"
+  default_prompt: "Use $super-deck to turn this research into a complete Brayl deck, using as many slides as needed for clear coverage and sources."
